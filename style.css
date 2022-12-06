@@ -2,3 +2,13 @@ h1,
 footer {
 	text-align: center;
 }
+
+.container {
+	display: block;
+	margin: auto 0;
+	text-align: center;
+}
+
+footer {
+	margin-top: 30px;
+}
