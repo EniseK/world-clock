@@ -23,6 +23,16 @@ function updateTime() {
 		.tz("America/Vancouver")
 		.format("h:mm:ss [<small>]A[</small>]");
 
+	let romeElement = document.querySelector("#rome");
+	let romeDate = romeElement.querySelector(".date");
+	let romeTime = romeElement.querySelector(".time");
+
+	romeDate.innerHTML = moment().tz("Europe/Rome").format("MMMM Do YYYY");
+
+	romeTime.innerHTML = moment()
+		.tz("Europe/Rome")
+		.format("h:mm:ss [<small>]A[</small>]");
+
 	function displayTime(event) {
 		let displayElement = document.querySelector(".display");
 		let location = event.target.value;
