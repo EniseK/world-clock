@@ -36,7 +36,8 @@ function updateTime() {
 						<h2>${cityName}</h2>
 						<div class="date">${time.format("MMMM Do YYYY")}</div>
 					</div>
-					<div class="time">${time.format("h:mm:ss [<small>]A[</small>]")}</div></div>`;
+					<div class="time">${time.format("h:mm:ss [<small>]A[</small>]")}</div></div>
+					<a href="/">Back to World Clock</a>`;
 	}
 
 	let city = document.querySelector("#cityMenu");
