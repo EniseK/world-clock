@@ -13,29 +13,30 @@
 		<div class="container">
 			<h1>World Clock</h1>
 
-			<select>
+			<select id="cityMenu">
 				<option value="">Select a city..</option>
-				<option value="">Istanbul</option>
-				<option value="">Seattle</option>
-				<option value="">Brussels</option>
-				<option value="">Cologne</option>
+				<option value="Asia/Tokyo">Tokyo</option>
+				<option value="US/Michigan">Michigan</option>
+				<option value="Europe/Brussels">Brussels</option>
+				<option value="Europe/Berlin">Berlin</option>
 			</select>
-
-			<div class="city" id="istanbul">
-				<div>
-					<h2>Istanbul 🇹🇷</h2>
-					<div class="date"></div>
-				</div>
-				<div class="time"></div>
-			</div>
-
-			<div class="city" id="seattle">
-				<div>
-					<h2>Seattle 🇺🇸</h2>
-					<div class="date"></div>
+			<div class="display">
+				<div class="city" id="istanbul">
+					<div>
+						<h2>Istanbul 🇹🇷</h2>
+						<div class="date"></div>
+					</div>
+					<div class="time"></div>
 				</div>
 
-				<div class="time"></div>
+				<div class="city" id="seattle">
+					<div>
+						<h2>Seattle 🇺🇸</h2>
+						<div class="date"></div>
+					</div>
+
+					<div class="time"></div>
+				</div>
 			</div>
 		</div>
 		<footer>

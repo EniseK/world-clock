@@ -38,6 +38,10 @@ select {
 	font-size: 18px;
 }
 
+.display {
+	padding: 40px;
+}
+
 .city {
 	display: flex;
 	margin: 20px 0;
